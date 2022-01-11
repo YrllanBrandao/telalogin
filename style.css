@@ -1,0 +1,296 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+#mainArea{
+  width:100vw;
+  height:100vh;
+  background:url("../_image/bg-login.jpg");
+  background-size: cover;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+#mainAreaSign {
+  width: 100vw;
+  height: 100vh;
+  background: url("../_image/bg-sign.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#formSign{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0,0,0,.2);
+  backdrop-filter: blur(1px);
+  width:80%;
+  height:400px;
+  padding:5px;
+  border-radius: 5px;
+ 
+}
+#areaEmail{
+  display:flex;
+  flex-direction: column;
+}
+#areaEmail input{
+  margin-bottom: 10px;
+}
+#formLogin {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255,255,255,.2);
+  backdrop-filter: blur(1px);
+  width:300px;
+  height:400px;
+  padding:5px;
+  border-radius: 5px;
+ 
+}
+#cabecalhoForm{
+  background: url("../_image/header.svg");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height:50%;
+  width:100%;
+  text-align: center;
+  padding:10px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color:#fff;
+  text-shadow: 2px 2px 3px black;
+  margin-top:-50px;
+}
+fieldset{
+  display:flex;
+  justify-content: center;
+  border:none;
+  margin-bottom: 20px;
+  
+}
+fieldset input{
+  border:none;
+  height:4%;
+  outline: none;
+  padding:5px;
+  border-radius: 3px;
+}
+#fieldPassword{
+  
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
+
+#fieldPasswordSign {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:-15px;
+  width:100%;
+}
+#fieldPasswordSign input{
+  margin-bottom: 15px;
+}
+#fieldSign{
+  margin-top:15px;
+  width:100%;
+}
+#fieldSign button{
+  width:30%;
+  padding:5px;
+  border:none;
+  border-radius: 3px;
+}
+#fieldOthers{
+  display:flex;
+  justify-content: space-evenly;
+  width:100%;
+}
+#fieldOthers a{
+  color:#fff;
+  text-decoration: none;
+  font-size: .6rem;
+  margin: 0 10px;
+}
+#fieldSubmit{
+  width:100%;
+}
+#fieldSubmit button{
+  width: 30%;
+  border:none;
+  border-radius:3px;
+  padding:5px 8px;
+}
+.eyePassword{
+  height:20px;
+  width:20px;
+  margin-left:150px;
+  background: url('https://api.iconify.design/fa-regular/eye.svg');
+  position:absolute;
+  background-repeat:no-repeat;
+ background-position: center center / contain;
+ margin-top:5px;
+}
+
+
+
+@media(max-width: 999px)
+{
+#mainArea{
+  width:100vw;
+  height:100vh;
+  background:url("../_image/bg-login.jpg");
+  background-size: cover;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+#mainAreaSign {
+  width: 100vw;
+  height: 100vh;
+  background: url("../_image/bg-sign.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#formSign{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0,0,0,.2);
+  backdrop-filter: blur(1px);
+  width:80%;
+  height:400px;
+  padding:5px;
+  border-radius: 5px;
+ 
+}
+#areaEmail{
+  display:flex;
+  flex-direction: column;
+}
+#areaEmail input{
+  margin-bottom: 10px;
+}
+#formLogin {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255,255,255,.2);
+  backdrop-filter: blur(1px);
+  width:300px;
+  height:400px;
+  padding:5px;
+  border-radius: 5px;
+ 
+}
+#cabecalhoForm{
+  background: url("../_image/header.svg");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height:50%;
+  width:100%;
+  text-align: center;
+  padding:10px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color:#fff;
+  text-shadow: 2px 2px 3px black;
+  margin-top:-50px;
+}
+fieldset{
+  display:flex;
+  justify-content: center;
+  border:none;
+  margin-bottom: 20px;
+  
+}
+fieldset input{
+  border:none;
+  height:4%;
+  outline: none;
+  padding:5px;
+  border-radius: 3px;
+}
+#fieldPassword{
+  
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
+
+#fieldPasswordSign {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:-15px;
+  width:100%;
+}
+#fieldPasswordSign input{
+  margin-bottom: 15px;
+}
+#fieldSign{
+  margin-top:15px;
+  width:100%;
+}
+#fieldSign button{
+  width:30%;
+  padding:5px;
+  border:none;
+  border-radius: 3px;
+}
+#fieldOthers{
+  display:flex;
+  justify-content: space-evenly;
+  width:100%;
+}
+#fieldOthers a{
+  color:#fff;
+  text-decoration: none;
+  font-size: .6rem;
+  margin: 0 10px;
+}
+#fieldSubmit{
+  width:100%;
+}
+#fieldSubmit button{
+  width: 30%;
+  border:none;
+  border-radius:3px;
+  padding:5px 8px;
+}
+.eyePassword{
+  height:20px;
+  width:20px;
+  margin-left:150px;
+  background: url('https://api.iconify.design/fa-regular/eye.svg');
+  position:absolute;
+  background-repeat:no-repeat;
+ background-position: center center / contain;
+ margin-top:5px;
+}
+
+}
