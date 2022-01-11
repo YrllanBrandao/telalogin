@@ -296,3 +296,20 @@ fieldset input{
 }
 
 }
+
+#easterEgg{
+  width:100vw;
+  height: 100vh;
+  background: url("pokemon.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left center;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10pt;
+  word-wrap: break-word;
+}
+#easterEgg h1{
+  color:#fff;
+}

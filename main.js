@@ -48,7 +48,7 @@ function validarLogin()
   
   if(inputEmail.value === loginLocal.getItem('email')  && inputPassword.value === loginLocal.getItem('password'))
   {
-    window.location.href = "_crud/crud.html"
+    window.location.href = "easteregg.html";
     
   }
   else{
