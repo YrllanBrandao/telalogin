@@ -55,3 +55,8 @@ function validarLogin()
     alert("entre com um login válido")
   }
 }
+
+const forgot = () =>{
+  
+  alert("Esqueceu a senha, que pena!");
+}
